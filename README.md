@@ -1,16 +1,15 @@
-# pingolearn_task1
+The Challenge:
+You have to build a news app which uses Firebase Authentication, Firebase
+Remote Config, and will fetch news from https://newsapi.org/ as per the
+specified designs.
 
-A new Flutter project.
+What is expected:
+● Firebase Authentication (email only)
+● Collect details (name, email) [Store details collected in Firestore in user
+collection]
+● A news feed showing the Top headlines in a country from (newsapi.org)
+[country code will be stored in Firebase Remote Config]
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Design specs:
+https://www.figma.com/proto/SAmVPffLvCfzwsvEIiRqLq/news?scaling=scale-do
+wn&page-id=0%3A1&starting-point-node-id=7%3A3&node-id=0%3A3
